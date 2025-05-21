@@ -1,0 +1,25 @@
+{
+  "name": "ipindia-news-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for IPIndia news",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cross-env TEST_MODE=true node index.js",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "date-fns": "^2.30.0",
+    "mysql2": "^3.6.1",
+    "puppeteer-core": "^10.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "puppeteer": "^21.5.0",
+    "vercel": "^32.5.0"
+  }
+}
